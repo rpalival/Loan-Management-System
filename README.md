@@ -16,6 +16,6 @@ In the angular.json-> projects-> projectName -> architect -> build -> options ->
 add this line -> "node_modules/bootstrap/dist/css/bootstrap.min.css"
 In the angular.json-> projects-> projectName -> architect -> build -> options -> scripts[]
 add this line -> "node_modules/jquery/dist/jquery.min.js" (if you have used jquery)
-add this line -> "node_modules/bootstrap/dist/js/bootstrap.min.js"
+add this line -> "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 
 
