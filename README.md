@@ -1,5 +1,6 @@
 Step #1 - Create separate repo/folders
 
+FrontEnd:
 Step - #2 - Installing Angular CLI in the UI repo
 
 Step - #3 - Create new Angular app
@@ -16,5 +17,9 @@ add this line -> "node_modules/bootstrap/dist/css/bootstrap.min.css"
 In the angular.json-> projects-> projectName -> architect -> build -> options -> scripts[]
 add this line -> "node_modules/jquery/dist/jquery.min.js" (if you have used jquery)
 add this line -> "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
+BackEnd:
+1 -> Be inside the backend folder (loans-api)
+$ npx express-generator
 
 
